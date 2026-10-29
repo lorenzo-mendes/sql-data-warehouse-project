@@ -5,6 +5,7 @@ Integra datos de ventas de 2 sistemas (CRM y ERP), los limpia y los organiza en 
 Proyecto hecho a partir del tutorial "SQL Data Warehouse from Scratch" de *Data With Baraa* (https://www.youtube.com/watch?v=9GVqKuTVANE)
 
 ARQUITECTURA
+
 CAPA: Bronze 
 QUE CONTIENE: Datos crudos CSV 
 TIPO DE OBJETO: Tablas 
@@ -30,10 +31,10 @@ REQUISITOS DEL PROYECTO
 
 ESTRUCTURA DEL REPOSITORIO
 sql-data-warehouse-project/
-- datasets/#CSV de origen (CRM y ERP)
-- docs/#Diagramas y catalogo de datos
-- scripts/#Scripts SQL por capa
-- tests/#Controles de calidad de datos
+- datasets/ CSV de origen (CRM y ERP)
+- docs/ Diagramas y catalogo de datos
+- scripts/ Scripts SQL por capa
+- tests/ Controles de calidad de datos
 - LICENSE
 - README.md
 
