@@ -38,6 +38,24 @@ sql-data-warehouse-project/
 - LICENSE
 - README.md
 
+sql-dwh/
+├── datasets/
+│   ├── source_crm/  (3 CSV)
+│   └── source_erp/  (3 CSV)
+├── docs/
+│   ├── diagramas_dwh.drawio + diagramas_dwh.jpg
+│   ├── data_integration.drawio + data_integration.png
+│   ├── data_model.drawio + data_model.png
+│   └── data_catalog.md
+├── scripts/
+│   ├── init_database.sql
+│   ├── bronze/  ddl_bronze.sql, proc_load_bronze.sql
+│   ├── silver/  ddl_silver.sql, proc_load_silver.sql
+│   └── gold/    ddl_gold.sql
+└── tests/
+    ├── quality_checks_silver.sql
+    └── quality_checks_gold.sql
+
 HERRAMIENTAS
 - SQL Server 2022 (en Docker, sobre macOS)
 - VS Code con la extension SQL Server (mssql)
